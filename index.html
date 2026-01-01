@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне</title>
+</head>
+<body>
+
+<header>
+    <h1>Привет, я <strong>Имя Фамилия</strong></h1>
+    <nav>
+        <ul>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#contact">Контакты</a></li>
+            <li><a href="projects.html">Проекты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <article>
+            <h2>Обо мне</h2>
+            <p>Я <em>студент 10 класса</em>, увлекаюсь <strong>технологиями, спортом и стартапами</strong>. В свободное время создаю проекты и учусь новому.</p>
+        </article>
+    </section>
+
+    <hr>
+
+    <section id="skills">
+        <h2>Мои навыки</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Навык</th>
+                    <th>Уровень</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML/CSS</td>
+                    <td>Продвинутый</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Средний</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Средний</td>
+                </tr>
+                <tr>
+                    <td>Английский</td>
+                    <td>Продвинутый</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="projects-preview">
+        <h2>Проекты</h2>
+        <div class="project-card">
+            <h3>EduFInd</h3>
+            <p>Платформа для поиска репетиторов с ИИ-чатом и рейтингами.</p>
+            <a href="projects.html#edufind">Подробнее</a>
+        </div>
+        <div class="project-card">
+            <h3>Smart Home</h3>
+            <p>Система управления умным домом через веб-интерфейс.</p>
+            <a href="projects.html#smarthome">Подробнее</a>
+        </div>
+        <a href="projects.html">Все проекты →</a>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <h2>Связаться со мной</h2>
+        <form action="#" method="post">
+            <div>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent">Я согласен на обработку данных</label>
+            </div>
+            <div>
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+            </div>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Имя Фамилия | <a href="#about">Наверх</a></p>
+</footer>
+
+</body>
+</html>
